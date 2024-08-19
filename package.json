@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.7.0",
+    "@nuxt/ui-pro": "^1.4.1",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/proxy": "^2.1.0",
+    "axios": "^1.7.3",
+    "html2canvas": "^1.4.1",
+    "html2pdf.js": "^0.10.2",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
+    "nuxt": "^3.12.4",
+    "pdfmake": "^0.2.12",
+    "vue": "latest",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "nuxt-file-storage": "^0.2.7"
+  }
+}
